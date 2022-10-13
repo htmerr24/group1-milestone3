@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Corona Admin</title>
+    <title>Colby Athletic Management System</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css">
@@ -23,20 +23,20 @@
       <!-- partial:../../partials/_sidebar.html -->
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
-          <a class="sidebar-brand brand-logo" href="../../index.html"><img src="../../assets/images/logo.svg" alt="logo" /></a>
-          <a class="sidebar-brand brand-logo-mini" href="../../index.html"><img src="../../assets/images/logo-mini.svg" alt="logo" /></a>
+          <a class="sidebar-brand brand-logo" href="../../index.html"><img src="../../assets/images/ca_mini_logo.png" alt="logo" /></a>
+          <a class="sidebar-brand brand-logo-mini" href="../../index.html"><img src="../../assets/images/ca_mini_logo.png" alt="logo" /></a>
         </div>
         <ul class="nav">
           <li class="nav-item profile">
             <div class="profile-desc">
               <div class="profile-pic">
                 <div class="count-indicator">
-                  <img class="img-xs rounded-circle " src="../../assets/images/faces/face15.jpg" alt="">
+                  <img class="img-xs rounded-circle " src="../../assets/images/faces/anne.jfif" alt="">
                   <span class="count bg-success"></span>
                 </div>
                 <div class="profile-name">
-                  <h5 class="mb-0 font-weight-normal">Henry Klein</h5>
-                  <span>Gold Member</span>
+                  <h5 class="mb-0 font-weight-normal">Anne Beethe</h5>
+                  <span>Super Admin</span>
                 </div>
               </div>
               <a href="#" id="profile-dropdown" data-toggle="dropdown"><i class="mdi mdi-dots-vertical"></i></a>
@@ -140,16 +140,15 @@
               <span class="menu-icon">
                 <i class="mdi mdi-security"></i>
               </span>
-              <span class="menu-title">User Pages</span>
+              <span class="menu-title">Permission Control</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="auth">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="../../pages/samples/blank-page.html"> Blank Page </a></li>
-                <li class="nav-item"> <a class="nav-link" href="../../pages/samples/error-404.html"> 404 </a></li>
-                <li class="nav-item"> <a class="nav-link" href="../../pages/samples/error-500.html"> 500 </a></li>
-                <li class="nav-item"> <a class="nav-link" href="../../pages/samples/login.html"> Login </a></li>
-                <li class="nav-item"> <a class="nav-link" href="../../pages/samples/register.html"> Register </a></li>
+                <li class="nav-item"> <a class="nav-link" href="../../pages/samples/PEAK.html"> PEAK member </a></li>
+                <li class="nav-item"> <a class="nav-link" href="../../pages/samples/coaches.html"> Coaches </a></li>
+                <li class="nav-item"> <a class="nav-link" href="../../pages/samples/athletes.html"> Athletes </a></li>
+                <li class="nav-item"> <a class="nav-link" href="../../pages/samples/add-remove.html"> Add/Remove </a></li>
               </ul>
             </div>
           </li>
@@ -177,7 +176,7 @@
             <ul class="navbar-nav w-100">
               <li class="nav-item w-100">
                 <form class="nav-link mt-2 mt-md-0 d-none d-lg-flex search">
-                  <input type="text" class="form-control" placeholder="Search products">
+                  <input type="text" class="form-control" placeholder="Search Teams">
                 </form>
               </li>
             </ul>
@@ -319,8 +318,8 @@
               <li class="nav-item dropdown">
                 <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
                   <div class="navbar-profile">
-                    <img class="img-xs rounded-circle" src="../../assets/images/faces/face15.jpg" alt="">
-                    <p class="mb-0 d-none d-sm-block navbar-profile-name">Henry Klein</p>
+                    <img class="img-xs rounded-circle" src="../../assets/images/faces/anne.jfif" alt="">
+                    <p class="mb-0 d-none d-sm-block navbar-profile-name">Anne Beethe</p>
                     <i class="mdi mdi-menu-down d-none d-sm-block"></i>
                   </div>
                 </a>
@@ -361,6 +360,103 @@
         <!-- partial -->
         <div class="main-panel">
           <div class="content-wrapper">
+            <div class ="row">
+              <div class="col-12 grid-margin">
+                <div class="card">
+                  <div class="card-body">
+                    <h2 class="card-title"> Athletes</h4>
+                      <form class ="nav-link mt-2 mt-md-0 d-none d-lg-flex search">
+                        <input type ="text" class="form-control" placeholder ="Search">
+                      </form>
+                    <div class="d-flex flex-row justify-content-between">
+                      <h3 class="card-title"> Names </h4>
+                      <h5 class="text-muted mb-2 small" style="text-align: right;">Sort by:</p>
+                      <p class="text-muted mb-1 small"> Last Name</p>
+                      <p class="text-muted mb-1 small"> Team </p>
+                    </div>
+                    <div class="preview-list">
+                      <div class="preview-item border-bottom">
+                        <div class="preview-thumbnail">
+                          <img src ="../../assets/images/faces/face6.jpg" alt ="image" class ="rounded-circle" />
+                        </div>
+                        <div class="preview-item-content d-flex flex-grow">
+                          <div class="flex-grow">
+                            <div class="d-flex d-md-block d-xl-flex justify-content-between">
+                              <h3 class="preview-subject"> Athlete 1 </h4>
+                                <i class ="mdi mdi-grease-pencil" style ="float: right;"></i>
+                            </div>
+                          <p class ="text-muted"> Team 1 </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="preview-item border-bottom">
+                        <div class="preview-thumbnail">
+                          <img src ="../../assets/images/faces/face7.jpg" alt ="image" class ="rounded-circle" />
+                        </div>
+                        <div class="preview-item-content d-flex flex-grow">
+                          <div class="flex-grow">
+                            <div class="d-flex d-md-block d-xl-flex justify-content-between">
+                              <h3 class="preview-subject"> Athlete 2 </h4>
+                                <i class ="mdi mdi-grease-pencil" style ="float: right;"></i>
+                            </div>
+                          <p class ="text-muted"> Team 2 </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="preview-item border-bottom">
+                        <div class="preview-thumbnail">
+                          <img src ="../../assets/images/faces/face8.jpg" alt ="image" class ="rounded-circle" />
+                        </div>
+                        <div class="preview-item-content d-flex flex-grow">
+                          <div class="flex-grow">
+                            <div class="d-flex d-md-block d-xl-flex justify-content-between">
+                              <h3 class="preview-subject"> Athlete 3 </h4>
+                                <i class ="mdi mdi-grease-pencil" style ="float: right;"></i>
+                            </div>
+                            <div id ="mySidepanel" class ="sidepanel">
+                              <div class="d-flex d-md-block d-xl-flex justify-content-between">
+                                <!-- how to add a sidepanel expand on the right when click on the name? -->
+                              </div>
+                            </div>
+                          <p class ="text-muted"> Team 3 </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="preview-item border-bottom">
+                        <div class="preview-thumbnail">
+                          <img src ="../../assets/images/faces/face9.jpg" alt ="image" class ="rounded-circle" />
+                        </div>
+                        <div class="preview-item-content d-flex flex-grow">
+                          <div class="flex-grow">
+                            <div class="d-flex d-md-block d-xl-flex justify-content-between">
+                              <h3 class="preview-subject"> Athlete 4 </h4>
+                                <i class ="mdi mdi-grease-pencil" style ="float: right;"></i>
+                            </div>
+                          <p class ="text-muted"> Team 4 </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="preview-item border-bottom">
+                        <div class="preview-thumbnail">
+                          <img src ="../../assets/images/faces/face10.jpg" alt ="image" class ="rounded-circle" />
+                        </div>
+                        <div class="preview-item-content d-flex flex-grow">
+                          <div class="flex-grow">
+                            <div class="d-flex d-md-block d-xl-flex justify-content-between">
+                              <h3 class="preview-subject"> Athlete 5 </h4>
+                                <i class ="mdi mdi-grease-pencil" style ="float: right;"></i>
+                            </div>
+                          <p class ="text-muted"> Team 5 </p>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <!-- content-wrapper ends -->
           <!-- partial:../../partials/_footer.html -->
