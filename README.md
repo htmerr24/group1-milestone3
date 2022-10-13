@@ -1,2 +1,2 @@
 # group1-milestone3
-yay
+Rough static html template
