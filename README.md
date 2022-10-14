@@ -1,4 +1,7 @@
 # group1-milestone3
+<p align="center">
+    <img src="https://img.shields.io/badge/CS321-Group1Milestone3-blue">
+</p>
 
 # 📈 Colby College Athletic Management System
 
@@ -16,7 +19,7 @@ HTML, Javascript, CSS
 
 ## Documentation
 
-[Corona Admin Documentation](https://www.bootstrapdash.com/demo/corona-free/jquery/documentation/documentation.html)
-[CSS Documentation](https://devdocs.io/css/)
-[JavaScript Documentation](https://developer.mozilla.org/en-US/docs/Web/javascript)
-[HTML Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[Corona Admin Documentation](https://www.bootstrapdash.com/demo/corona-free/jquery/documentation/documentation.html) |
+[CSS Documentation](https://devdocs.io/css/) |
+[JavaScript Documentation](https://developer.mozilla.org/en-US/docs/Web/javascript) |
+[HTML Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML) |
