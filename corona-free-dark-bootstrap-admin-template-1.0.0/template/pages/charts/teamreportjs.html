@@ -23,21 +23,21 @@
       <!-- partial:../../partials/_sidebar.html -->
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
-          <!-- <a class="sidebar-brand brand-logo" href="../../index.html"><img src="../../assets/images/logo.svg" alt="logo" /></a> -->
-          <a class="sidebar-brand brand-logo-mini" href="../../index.html"><img src="" alt="logo" /></a>
-          <a class="sidebar-brand brand-logo" href="../../index.html"><img src="../../assets/images/ca_mini_logo.png" alt="logo" /></a>
+            <a class="sidebar-brand brand-logo" href="../../index.html"><img src="../../assets/images/ca_mini_logo.png" alt="logo" /></a>
+            <a class="sidebar-brand brand-logo-mini" href="../../index.html"><img src="../../assets/images/logo-mini.svg" alt="logo" /></a>
+          
         </div>
         <ul class="nav">
-          <li class="nav-item profile">
-            <div class="profile-desc">
-              <div class="profile-pic">
-                <div class="count-indicator">
-                 <img class="img-xs rounded-circle " src="../../assets/images/faces/anne.jfif" alt="">
-                  <span class="count bg-success"></span>
-                </div>
-                <div class="profile-name">
-                  <h5 class="mb-0 font-weight-normal">Anne Beethe</h5>
-                  <span>Super Admin</span>
+            <li class="nav-item profile">
+              <div class="profile-desc">
+                <div class="profile-pic">
+                  <div class="count-indicator">
+                   <img class="img-xs rounded-circle " src="../../assets/images/faces/anne.jfif" alt="">
+                    <span class="count bg-success"></span>
+                  </div>
+                  <div class="profile-name">
+                    <h5 class="mb-0 font-weight-normal">Anne Beethe</h5>
+                    <span>Super Admin</span>
                 </div>
               </div>
               <a href="#" id="profile-dropdown" data-toggle="dropdown"><i class="mdi mdi-dots-vertical"></i></a>
@@ -117,8 +117,8 @@
               <span class="menu-icon">
                 <i class="mdi mdi-table-large"></i>
               </span>
-              <span class="menu-title">Tables</span> -->
-            </a>
+              <span class="menu-title">Tables</span>
+            </a> -->
           </li>
           <li class="nav-item menu-items">
             <a class="nav-link" href="../../pages/charts/reportjs.html">
@@ -159,8 +159,8 @@
               <span class="menu-icon">
                 <i class="mdi mdi-file-document-box"></i>
               </span>
-              <span class="menu-title">Documentation</span>
-            </a> -->
+              <span class="menu-title">Documentation</span> -->
+            </a>
           </li>
         </ul>
       </nav>
@@ -383,16 +383,13 @@
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">Separated link</a> -->
             <!-- </div> -->
-    
             <div class="dropdown">
-              &ensp;
-      
-              <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Teams </button>
-              <div class="dropdown-menu{max-height:20px;overflow:scroll;}" aria-labelledby="dropdownMenuButton2">
-                <form class="nav-link mt-2 mt-md-0 d-none d-lg-flex search">
-                <input type="text" class="form-control" placeholder="Search teams">
-                </form>
-                </li>
+            &ensp;
+              <button class="btn btn-primary dropdown-toggle" type="button" id="dropdown-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Teams </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                <br>
+                <br>
+         
                 <h6 class="dropdown-header">Mens Sports</h6>
                 <a class="dropdown-item" href="teamreportjs.html">Alpine Skiing</a>
                 <a class="dropdown-item" href="teamreportjs.html">Baseball</a>
@@ -407,8 +404,6 @@
                 <a class="dropdown-item" href="teamreportjs.html">Soccer</a>
                 <a class="dropdown-item" href="teamreportjs.html">Squash</a>
                 <a class="dropdown-item" href="teamreportjs.html">Swimming & Diving</a>
-                <a class="dropdown-item" href="teamreportjs.html">Tennis</a>
-                <a class="dropdown-item" href="teamreportjs.html">Track & Field</a>
                 <div class="dropdown-divider"></div>
                 <h6 class="dropdown-header">Womens Sports</h6>
                 <a class="dropdown-item" href="teamreportjs.html">Alpine Skiing</a>
@@ -424,16 +419,15 @@
                 <a class="dropdown-item" href="teamreportjs.html">Squash</a>
                 <a class="dropdown-item" href="teamreportjs.html">Swimming & Diving</a>
                 <a class="dropdown-item" href="teamreportjs.html">Tennis</a>
-                <a class="dropdown-item" href="teamreportjs.html">Track & Field</a>
-                <a class="dropdown-item" href="teamreportjs.html">Volleyball</a>
-
               </div>
             </div>
 
 
-            <!-- <a href="reportjs.html" download="SampleReport.pdf">
-                <button type="button" class="btn btn-primary btn-fw">Download File</button> -->
-
+            <a href="teamreportjs.html" download="SampleReport.pdf" >
+            <br>
+            &ensp;
+            <button type="button" class="btn btn-primary btn-fw">Download File</button>
+            <br>
             <!-- </a>           
             <div class="row">
               <div class="col-lg-6 grid-margin stretch-card">
@@ -442,25 +436,26 @@
                     <h4 class="card-title">Line chart</h4>
                     <canvas id="lineChart" style="height:250px"></canvas>
                   </div>
+                </div> -->
+              <!-- </div> -->
+              <br>
+              <div class="col-lg-6 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Data</h4>
+                    <canvas id="areaChart" style="height:230px"></canvas>
+                  </div>
                 </div>
               </div>
               <div class="col-lg-6 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
-                    <h4 class="card-title">Area Chart</h4>
-                    <canvas id="areaChart" style="height:230px"></canvas>
-                  </div>
-                </div>
-              </div> -->
-              <!-- <div class="col-lg-6 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-                    <h4 class="card-title">Doughnut chart</h4>
+                    <h4 class="card-title">Data</h4>
                     <canvas id="doughnutChart" style="height:250px"></canvas>
                   </div>
                 </div>
               </div>
-            </div> -->
+            </div>
             <!-- <div class="row">
               <div class="col-lg-6 grid-margin stretch-card">
                 <div class="card">
@@ -470,16 +465,6 @@
                   </div>
                 </div>
               </div> -->
-              <!-- <div class="col-lg-6 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-                    <h4 class="card-title">Scatter chart</h4>
-                    <canvas id="scatterChart" style="height:250px"></canvas>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
           <!-- content-wrapper ends -->
           <!-- partial:../../partials/_footer.html -->
           <footer class="footer">
@@ -487,7 +472,13 @@
               <!-- <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © bootstrapdash.com 2020</span> -->
               <!-- <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"> Free <a href="https://www.bootstrapdash.com/bootstrap-admin-template/" target="_blank">Bootstrap admin templates</a> from Bootstrapdash.com</span> -->
             </div>
-          </footer>
+          </footer> 
+           <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
           <!-- partial -->
         </div>
         <!-- main-panel ends -->
